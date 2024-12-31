@@ -99,7 +99,7 @@ Set target temperature of climate device
 | `temperature` | yes | New target temperature for climate device (commonly referred to as a *setpoint*). Do not use if `hvac_mode` is `heat_cool`.
 | `target_temp_high` | yes | The highest temperature that the climate device will allow. Required if `hvac_mode` is `heat_cool`. Required together with `target_temp_low`.
 | `target_temp_low` | yes | The lowest temperature that the climate device will allow. Required if `hvac_mode` is `heat_cool`.  Required together with `target_temp_high`.
-| `temperature_unit` | yes | The unit in which the above target temperatures should be set. This defaults based on the selected unit system of your HA instance.
+| `temperature_unit` | yes | The unit in which the above target temperatures should be set. This defaults based on the selected unit system of your Home Assistant instance.
 | `hvac_mode` | yes | HVAC mode to set the climate device to. This defaults to current HVAC mode if not set, or set incorrectly.
 
 #### Automation examples
