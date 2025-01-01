@@ -1,5 +1,5 @@
 ---
-title: Decorquip
+title: Decorquip Dream
 description: Connect and control your Decorquip Dream devices using the Motionblinds integration
 ha_category:
   - Cover
