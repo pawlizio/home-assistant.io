@@ -89,13 +89,13 @@ fit_y_data:
   default: false
 energy_date_selection:
   required: false
-  type: boolean
   description: If true, chart date range will follow the date selected on an `energy-date-selection` card on the same view, similar to energy cards.
+  type: boolean  
   default: false
 collection_key:
   required: false
-  type: string
   description: If using `energy_date_selection`, you can set a custom key to match the optional key of an `energy-date-selection` card. This is not typically required, but can be useful if multiple date selection cards are used on the same view.  
+  type: string  
 {% endconfiguration %}
 
 ### Options for entities
